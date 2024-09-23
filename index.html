@@ -15,6 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            flex-direction: column;
         }
 
         table {
@@ -38,11 +39,33 @@
             color: white;
         }
 
-        td:hover {
-            background-color: green;
-            color: white;
+        td {
             cursor: pointer;
+        }
+
+        td:hover {
             transform: scale(1.1); /* Scale up the hovered cell */
+        }
+
+        /* Color each teacher */
+        .arl {
+            background-color: #ffadad;
+        }
+
+        .gte {
+            background-color: #ffd6a5;
+        }
+
+        .jbm {
+            background-color: #caffbf;
+        }
+
+        .mdi {
+            background-color: #9bf6ff;
+        }
+
+        .todos{
+            background-color: gold;
         }
 
         caption {
@@ -126,55 +149,55 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td>EIE ARL</td>
-                <td>DEAPW GTE</td>
-                <td>DWENC JBM</td>
-                <td>DEAPW GTE</td>
-                <td>DWENS MDI</td>
+                <td class="arl">EIE ARL</td>
+                <td class="gte">DEAPW GTE</td>
+                <td class="jbm">DWENC JBM</td>
+                <td class="gte">DEAPW GTE</td>
+                <td class="mdi">DWENS MDI</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>EIE ARL</td>
-                <td>DWENS MDI</td>
-                <td>DWENC JBM</td>
-                <td>DEAPW GTE</td>
-                <td>DWENS MDI</td>
+                <td class="arl">EIE ARL</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="jbm">DWENC JBM</td>
+                <td class="gte">DEAPW GTE</td>
+                <td class="mdi">DWENS MDI</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>DINWE Todos</td>
-                <td>DWENS MDI</td>
-                <td>DINWM JBM</td>
-                <td>Tutoria GTE</td>
-                <td>DINWM 2DAW JBM</td>
+                <td class="arl">DINWE Todos</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="jbm">DINWM JBM</td>
+                <td class="gte">Tutoria GTE</td>
+                <td class="jbm">DINWM 2DAW JBM</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>DWENS MDI</td>
-                <td>DWENS MDI</td>
-                <td>DWENS MDI</td>
-                <td>DWENS MDI</td>
-                <td>DINWM JBM</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="jbm">DINWM JBM</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>DEAPW  GTE</td>
-                <td>DWENC  JBM</td>
-                <td>DWENS  MDI</td>
-                <td>DWENS  MDI</td>
-                <td>DWENC  JBM</td>
+                <td class="gte">DEAPW GTE</td>
+                <td class="jbm">DWENC JBM</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="jbm">DWENC JBM</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>DEAPW GTE</td>
-                <td>DWENC JBM</td>
-                <td>DWENS MDI</td>
-                <td>EIE ARL</td>
-                <td>DWENC JBM</td>
+                <td class="gte">DEAPW GTE</td>
+                <td class="jbm">DWENC JBM</td>
+                <td class="mdi">DWENS MDI</td>
+                <td class="arl">EIE ARL</td>
+                <td class="jbm">DWENC JBM</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>DWENC JBM</td>
+                <td class="jbm">DWENC JBM</td>
                 <td></td>
                 <td></td>
                 <td></td>
